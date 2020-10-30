@@ -193,7 +193,7 @@ a, button {
   background-position: center center; }
   .hero::before {
     content: '';
-    background-color: rgba(0, 0, 0, 0.75);
+    background-color: rgba(0, 0, 0, 0.55);
     position: absolute;
     top: 0;
     right: 0;
@@ -203,7 +203,7 @@ a, button {
   .hero::after {
     content: '';
     background-color: rgba(0, 0, 0, 0.75);
-    clip-path: polygon(0 0, 37% 0, 63% 100%, 0% 100%);
+    clip-path: polygon(0 0, 43% 0, 66% 100%, 0% 100%);
     position: absolute;
     top: 0;
     right: 0;
