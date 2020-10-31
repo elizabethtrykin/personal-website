@@ -25,7 +25,7 @@ $(document).ready(function () {
 });
 
 $window.on("load", (function() {
-    $("#overlayer, .loader").delay(1000).fadeOut('slow');
+    $("#overlayer, .loader").delay(500).fadeOut('fast');
     portfolioIsotop();
 }));
 $window.on('scroll', function () {
